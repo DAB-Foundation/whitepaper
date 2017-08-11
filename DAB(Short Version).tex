@@ -39,11 +39,11 @@
 \HRule \\[0.75cm]
 { \huge \bfseries Decentralized Autonomous Bank}\\[0.4cm]
 \HRule \\[1.5cm]
-\textsc{\LARGE A Whitepaper}\\[0.5cm]
+\textsc{\LARGE WHITEPAPER}\\[0.5cm]
 
 \vfill
 % Bottom of the page
-{\large \today}
+{\large Final Version: \today}
 
 \end{center}
 \end{titlepage}
@@ -108,7 +108,7 @@ The two main contracts are Deposit Contract and Credit Contract, which are respo
 \textbf{DAB Wallet Factory} is a user-oriented wrapper in charge of deposit-related and credit-related operations. As a package of DAB, users can accomplish inquiring, depositing, loaning, transferring, cashing and other operations much more conveniently with fewer procedures. With regards to \textbf{DAB Wallet}, it works as a set of interfaces of these various operations, which minimize the incidence of mistakes.
 
 \subsection{An Organization}
-\textbf{Distributed Autonomous Organization, DAO for short} is the decision-making level of DAB. Each user has the right to put forward proposals onto the pending list in DAO, whose issues may concern interest adjustments, mintage suppression and so on. Users vote on these proposals to improve the mechanism and adaptability of DAB in virtual currency market.  
+\textbf{Distributed Autonomous Organization, DAO for short} is the decision-making level of DAB. Each user has the right to put forward proposals onto the pending list in DAO, whose issues may concern interest adjustments, mintage suppression and so on. Users vote on these proposals to improve the mechanism and adaptability of DAB in virtual currency market. The weight of a vote directly relies on the number of Deposit Tokens one has.
 
 \subsection{Behaviors}
 This sub-section focuses on what users can do in DAB. The main five behaviors that users may carry out are listed below.
@@ -116,7 +116,7 @@ This sub-section focuses on what users can do in DAB. The main five behaviors th
 \begin{itemize}
    \item Fund and purchase. Before DAB begins to function officially, every single person who funds it is regarded as a founder and a user of it, and a certain proportion of the funds acts as purchase of DPT and CDT in return. This is the primary way to gain tokens in DAB.
    \item Deposit and withdraw. After DAB's official running, for one thing, a user can deposit Ethereum into Deposit Bank, get equivalent Deposit Tokens for a certain share of Deposit Reserve Funds, and enjoy interest from it. This is another way to gain Deposit Tokens in DAB. For another, user can withdraw Ethereum and return his/her Deposit Tokens back to the bank.
-   \item Loan and repay. After DAB's official running, a user can loan Ethereum from Credit Bank according to the number of Credit Tokens he/she owns. Once he/she prepays a certain amount of interest based on the loaning span and get Ethereum, equivalent Credit Tokens are degraded to Sub-Credit Tokens immediately. A certain percentage of the prepaid interest will be used for producing new Credit Tokens dependent on \textbf{Deposit Reserve Ratio}, \textbf{CRR(DPT)}, and then the new Credit Tokens will be rewarded to the user as long as he/she repays his/her loan in time. The other half will be deposited into Deposit Bank. The completion of the loan will trigger a conversion from Sub-Credit Tokens to Credit Tokens equivalent in their number. Besides, the user will gain bonus Credit Tokens as mentioned above. This is another way to gain Credit Tokens in DAB. But Sub-Credit Tokens will be converted to Discredit Tokens with 20\% loss if the debt is not returned timely. The ownership of DCT indicates bad credit of the user.
+   \item Loan and repay. After DAB's official running, a user can loan Ethereum from Credit Bank according to the number of Credit Tokens he/she owns. Once he/she prepays a certain amount of interest based on the loaning span and get Ethereum, equivalent Credit Tokens are degraded to Sub-Credit Tokens immediately. A certain percentage of the prepaid interest will be used for producing new Credit Tokens dependent on \textbf{Deposit Reserve Ratio}, \textbf{CRR(DPT)}, and then those will be rewarded to the user. The completion of the loan will trigger a conversion from Sub-Credit Tokens to Credit Tokens equivalent in their number. This is another way to gain Credit Tokens in DAB. But Sub-Credit Tokens will be converted to Discredit Tokens with 20\% loss if the debt is not returned timely. The ownership of DCT indicates bad credit of the user.
    \item Transfer. Most forms of assets can be transferred between users, including Ethereum, DPT, CDT and DCT (not SCT). Especially, the transfer of DCT is another solution for a user discharging his/her debt, if he is willing to. But risks of this operation over-ranges DAB's responsibility.
    \item Cash CDT. Commonly, after DAB's official running, CDT serves as a measure of one's credit ceiling, \emph{i.e.} the maximum Ethereum one can loan from DAB. Despite its cashing price lower than the credit line per Credit Token, it can still be one-way cashed to Ethereum, if needed.
 \end{itemize}
@@ -159,20 +159,20 @@ As the mintage proceeds, DPT becomes more expensive. To suppress excessive depos
 \caption{Two Stage}\label{TS}
 \end{figure}
 
-To assure a stable market, 35\% of the funds will serve as profits for mintage to those who develops and maintains DAB.
+To assure a stable market, a certain percentage of the funds will serve as profits for mintage to those who develops and maintains DAB.
 
 \subsection{Incentives for Token Holders}
-Different incentives are employed by DAB to encourage users to either deposit or loan. The figure below vividly illustrates the interactions among Deposit Bank, Credit Bank and a user, which helps understand DAB?s functioning mechanism better.
+Different incentives are employed by DAB to encourage users to either deposit or loan. The figure below vividly illustrates the interactions among Deposit Bank, Credit Bank and a user \emph{Aaron}, which helps understand DAB's functioning mechanism better.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=4.5in]{Graphs/EE.jpg}
+\includegraphics[width=4.5in]{Graphs/InterestDistribution.jpg}
 \end{center}
 \caption{Incentives Interactions}\label{TS}
 \end{figure}
 
-Take this picture for an example, where ${CRR(DPT) = 0.8}$. When 20 Ethereum is deposited into Deposit Bank, ${\frac{(1 + CRR)}{2}}$ of the deposit will be used for producing tokens, whose numbers as well as proportion are calculated according to current CRR(DPT) and their current prices and then returned to the user. In this transaction, DPT serves as a type of token for the users? share held in Deposit Bank, while CDT serves as incentives for his/her depositing behavior. If applying for a loan, a user has to freeze equivalent Credit Token as Sub-Credit Tokens first, and prepay a certain amount of interest in exchange for the loan and corresponding bonus CDT as incentives. Also, Deposit Reserve Funds in Deposit Bank interacts with Credit Reserve Funds to balance the non-negotiable tokens.
-The incentives for a loan and a deposit varies in condition of different CRR and prices. Once depositing behavior counts far outnumber loaning behavior counts, the incentives for depositing fall and those for loaning rise to encourage users to loan otherwise.
+Take this picture for an example, where ${CRR(DPT) = 80\%}$, ${Price(DPT) = 0.01}$, ${Price(CDT) = 0.02}$,  the maximum amount of Ethereum one can loan per CDT ${Loan(CDT) = 0.01}$ and ${Interest(Loan) = 4\%}$. When \emph{Aaron} wants to deposit $20$ Ethereum into Deposit Bank, ${\frac{(1 - CRR)}{2} = 10\%}$ of the deposit serves as  profits for mintage for developers and the rest ${90\%}$ will be used for producing tokens. $80\%$ of the deposit will be spent on producing ${\frac{20 \* CRR \* \frac{(1 - CRR)}{2}}{Price(DPT)} = 1440}$ Deposit Tokens, which represent the users' share held in Deposit Bank. And the rest $20\%$ (of $4$-Ethereum value) will be spent on producing ${\frac{20 \* CRR \* \frac{(1 - CRR)}{2}}{Price(DPT)} = 180}$ Credit Tokens, which serves as incentives for his/her depositing behavior. If \emph{Aaron} wants to apply for a loan using 100 Credit Tokens, he has to freeze them first as Sub-Credit Tokens, and then receive ${100 \* Loan(CDT) \* (1 - Interest(Loan)) = 0.96}$ Ethereum, which has already subtracted the prepaid interest and corresponding bonus ${\frac{Interest(Loan) \* CRR(DPT)}{Price(CDT) = 1.6}}$ CDT as incentives. Also, half of the interest, which is of 0.02 Ethereum value, will be transited to Deposit Reserve Funds in Deposit Bank to balance the number of non-negotiable tokens.
+The incentives for a loan and a deposit varies in condition of different CRR and prices. For instance, once depositing behavior counts far outnumber loaning behavior counts, the incentives for depositing fall and those for loaning rise to encourage users to loan otherwise.
 
 \section{Expectations}
 What Distributed Autonomous Bank attempts to achieve is to establish a harmonious ecosystem for basic monetary behaviors on Ethereum. This autonomous bank can function well in most cases without any administration or supervision from authorities. Normally, without much maintenance, the pre-designed mechanism can accomplish variations and adjustments of indices like tokens' price and deposit's interest. For the reason that labors and time are saved, users in DAB enjoys higher interest when depositing and lower one when loaning.
@@ -285,10 +285,5 @@ No regulatory authority has examined or approved of any of the information set o
 
 \subsection{Risks and Uncertainties}
 Prospective purchasers of any types of the four tokens (as referred to in this Whitepaper) should carefully consider and evaluate all risks and uncertainties associated with DAB, its developers and their respective businesses and operations, any types of the four tokens, the activation of the two contracts and the DAB Wallet (each as referred to in the Whitepaper), all information set out in this Whitepaper and the T\&Cs prior to any purchase of any types of the four tokens. If any of such risks and uncertainties develops into actual events, the business, financial condition, results of operations and prospects of DAB and/or its developers could be materially and adversely affected. In such cases, you may lose all or part of the value of any types of the four tokens.
-
-\section{Reference}
-
-\bibliographystyle{elsarticle-num}
-\bibliography{References}
 
 \end{document}
