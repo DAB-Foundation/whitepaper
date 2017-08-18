@@ -1,2 +1,2 @@
 # whitepaper
-Decentralized Autonomous Bank Wiki
+Decentralized Autonomous Bank Whitepaper.
