@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  17 AUG 2017 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.2)  4 SEP 2017 09:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,105 +399,113 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
+) [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
- [1]
-<Graphs/DAB_Hierarchy.jpg, id=16, 711.3777pt x 197.2971pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+ [2]
+<Graphs/DAB_Hierarchy.jpg, id=19, 711.3777pt x 197.2971pt>
 File: Graphs/DAB_Hierarchy.jpg Graphic file (type jpg)
 
 <use Graphs/DAB_Hierarchy.jpg>
-Package pdftex.def Info: Graphs/DAB_Hierarchy.jpg used on input line 70.
+Package pdftex.def Info: Graphs/DAB_Hierarchy.jpg used on input line 71.
 (pdftex.def)             Requested size: 325.215pt x 90.1948pt.
- [2 <./Graphs/DAB_Hierarchy.jpg>]
-<Graphs/logos-line.jpg, id=22, 616.704pt x 346.896pt>
+ [3 <./Graphs/DAB_Hierarchy.jpg>]
+<Graphs/logos-line.jpg, id=25, 616.704pt x 346.896pt>
 File: Graphs/logos-line.jpg Graphic file (type jpg)
 
 <use Graphs/logos-line.jpg>
-Package pdftex.def Info: Graphs/logos-line.jpg used on input line 80.
+Package pdftex.def Info: Graphs/logos-line.jpg used on input line 81.
 (pdftex.def)             Requested size: 325.215pt x 182.93298pt.
- [3 <./Graphs/logos-line.jpg>] [4]
-Overfull \hbox (3.10428pt too wide) in paragraph at lines 111--112
+ [4 <./Graphs/logos-line.jpg>] [5]
+Overfull \hbox (3.10428pt too wide) in paragraph at lines 112--113
 []\OT1/cmr/bx/n/10 Distributed Au-tonomous Or-ga-ni-za-tion, DAO for short \OT1
 /cmr/m/n/10 is the decision-
  []
 
-[5] [6] <Graphs/Activation1.jpg, id=36, 462.528pt x 346.896pt>
+[6] [7] <Graphs/Activation1.jpg, id=39, 462.528pt x 346.896pt>
 File: Graphs/Activation1.jpg Graphic file (type jpg)
 
 <use Graphs/Activation1.jpg>
-Package pdftex.def Info: Graphs/Activation1.jpg used on input line 133.
+Package pdftex.def Info: Graphs/Activation1.jpg used on input line 134.
 (pdftex.def)             Requested size: 325.215pt x 243.92122pt.
- [7] [8 <./Graphs/Activation1.jpg>]
-<Graphs/Two_Stage.jpg, id=44, 462.528pt x 346.896pt>
+ [8] [9 <./Graphs/Activation1.jpg>]
+<Graphs/Two_Stage.jpg, id=47, 462.528pt x 346.896pt>
 File: Graphs/Two_Stage.jpg Graphic file (type jpg)
 
 <use Graphs/Two_Stage.jpg>
-Package pdftex.def Info: Graphs/Two_Stage.jpg used on input line 149.
+Package pdftex.def Info: Graphs/Two_Stage.jpg used on input line 150.
 (pdftex.def)             Requested size: 325.215pt x 243.92122pt.
- [9]
-<Graphs/PriceFloorCurve.jpg, id=48, 462.528pt x 346.896pt>
+ [10]
+<Graphs/PriceFloorCurve.jpg, id=51, 462.528pt x 346.896pt>
 File: Graphs/PriceFloorCurve.jpg Graphic file (type jpg)
 
 <use Graphs/PriceFloorCurve.jpg>
-Package pdftex.def Info: Graphs/PriceFloorCurve.jpg used on input line 158.
+Package pdftex.def Info: Graphs/PriceFloorCurve.jpg used on input line 159.
 (pdftex.def)             Requested size: 325.215pt x 243.92122pt.
- [10 <./Graphs/Two_Stage.jpg>]
-<Graphs/InterestDistribution.jpg, id=52, 240.9pt x 135.3858pt>
+ [11 <./Graphs/Two_Stage.jpg>]
+<Graphs/InterestDistribution.jpg, id=55, 240.9pt x 135.3858pt>
 File: Graphs/InterestDistribution.jpg Graphic file (type jpg)
 
 <use Graphs/InterestDistribution.jpg>
-Package pdftex.def Info: Graphs/InterestDistribution.jpg used on input line 170
+Package pdftex.def Info: Graphs/InterestDistribution.jpg used on input line 171
 .
 (pdftex.def)             Requested size: 325.215pt x 182.78772pt.
- [11 <./Graphs/PriceFloorCurve.jpg>]
-Overfull \hbox (59.78174pt too wide) in paragraph at lines 175--177
+ [12 <./Graphs/PriceFloorCurve.jpg>]
+Overfull \hbox (59.78174pt too wide) in paragraph at lines 176--178
 []\OT1/cmr/m/n/10 Take this pic-ture for an ex-am-ple, where $[]$, $[]$,
  []
 
 
-Overfull \hbox (5.67334pt too wide) in paragraph at lines 175--177
+Overfull \hbox (5.67334pt too wide) in paragraph at lines 176--178
 \OT1/cmr/m/n/10 Sub-Credit To-kens, and then re-ceive $[]$
  []
 
-[12 <./Graphs/InterestDistribution.jpg>] [13]
-Overfull \hbox (24.3824pt too wide) in paragraph at lines 189--190
+[13 <./Graphs/InterestDistribution.jpg>]
+<Graphs/DWDT.jpg, id=68, 1559.8275pt x 780.9175pt>
+File: Graphs/DWDT.jpg Graphic file (type jpg)
+ <use Graphs/DWDT.jpg>
+Package pdftex.def Info: Graphs/DWDT.jpg used on input line 185.
+(pdftex.def)             Requested size: 325.215pt x 162.81784pt.
+
+[14 <./Graphs/DWDT.jpg>]
+Overfull \hbox (24.3824pt too wide) in paragraph at lines 201--202
 []\OT1/cmr/bx/n/10 Youtube\OT1/cmr/m/n/10 : $[]$ 
  []
 
-[14] [15] [16] [17] [18] [19] [20] [21] [22] [23] (./DAB(Short Version).aux) ) 
+[15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
+(./DAB(Short Version).aux) ) 
 Here is how much of TeX's memory you used:
- 4629 strings out of 493014
- 63919 string characters out of 6133352
- 136580 words of memory out of 5000000
- 8061 multiletter control sequences out of 15000+600000
+ 4636 strings out of 493014
+ 64014 string characters out of 6133352
+ 138589 words of memory out of 5000000
+ 8066 multiletter control sequences out of 15000+600000
  8789 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,38p,1487b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
-<
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "DAB(Short Version).pdf" (24 pages, 2199602 bytes).
+ 38i,6n,38p,1487b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb>
+Output written on "DAB(Short Version).pdf" (26 pages, 2406764 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
